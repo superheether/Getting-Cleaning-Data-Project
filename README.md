@@ -34,6 +34,7 @@ You should create one R script called run_analysis.R that does the following.
 Good luck!
 
 
+
 Breakdown of run_analysis.R file with code and steps
 
 Step 1. Merges the training and the test sets to create one data set.
