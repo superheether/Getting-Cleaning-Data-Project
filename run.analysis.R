@@ -59,7 +59,3 @@
 #Step 5. From the data set in Step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 > write.table(TidySetTable, "TidySetTable.txt", row.names = FALSE)
-
-#For fun, view your completed tidy data set and celebrate: you did it!
-
-> View(TidySetTable)
