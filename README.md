@@ -1,4 +1,20 @@
-# The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+My breakdown of run_analysis.R file with code and steps
+
+Step 1. Merges the training and the test sets to create one data set.
+1.1 Upload files from "UCI HAR Dataset" into Environment
+1.2 Assigning column names in each table
+1.3 Merging unstructured data into one set
+1.3.1 Checking dimensions of merged set 
+Step 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+2.1 Reading column names
+2.2 Creating a vector to define mean and standard of merged data set
+Step 3. Uses descriptive activity names to name the activities in data set
+Step 4. Appropriately labels the data set with descriptive variable names
+Step 5. From the data set in Step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Project Instructions Below:
+
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
 Review criteria
 less 
@@ -22,40 +38,9 @@ Here are the data for the project:
 You should create one R script called run_analysis.R that does the following. 
 
 1 Merges the training and the test sets to create one data set.
-
 2 Extracts only the measurements on the mean and standard deviation for each measurement. 
-
 3 Uses descriptive activity names to name the activities in the data set
-
 4 Appropriately labels the data set with descriptive variable names. 
-
 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Good luck!
-
-
-
-
-Breakdown of run_analysis.R file with code and steps
-
-Step 1. Merges the training and the test sets to create one data set.
-
-1.1 Upload files from "UCI HAR Dataset" into Environment
-
-1.2 Assigning column names in each table
-
-1.3 Merging unstructured data into one set
-
-1.3.1 Checking dimensions of merged set 
-
-Step 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-
-2.1 Reading column names
-
-2.2 Creating a vector to define mean and standard of merged data set
-
-Step 3. Uses descriptive activity names to name the activities in data set
-
-Step 4. Appropriately labels the data set with descriptive variable names
-
-Step 5. From the data set in Step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
