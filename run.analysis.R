@@ -3,9 +3,13 @@
 #1.1 Upload files from "UCI HAR Dataset" into Environment
 #Use "Import Dataset" in Environment - import tables individually: X_train, y_train, subject_train, X_test, y_test, subject_test, activity_labels
 #Tables will appear in Environment to use in code
+
 #Note: no need to rename tables as R will recognize their uploaded file names that appear in Environment; 
 #you can also view the tables by clicking on the table icon to the right of the table name
 
+#Load "dplyr" to use for this project
+
+> library(dplyr)
 
 #1.2 Assigning column names in each table
 
@@ -52,7 +56,7 @@
 > TidySet <- aggregate(. ~subjectId + activityId, Test_Train, mean)
 > TidySetTable <- TidySet[order(TidySet$subjectId, TidySet$activityId),]
 
-#Step 5. From the data set in Step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+#Step 5. From the data set in Step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 > write.table(TidySetTable, "TidySetTable.txt", row.names = FALSE)
 
