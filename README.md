@@ -1,14 +1,19 @@
 My breakdown of run_analysis.R file with code and steps
 
-
 Step 1. Merges the training and the test sets to create one data set.
+
 1.1 Upload files from "UCI HAR Dataset" into Environment
+
 1.2 Assigning column names in each table
+
 1.3 Merging unstructured data into one set
+
 1.3.1 Checking dimensions of merged set 
 
 Step 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
 2.1 Reading column names
+
 2.2 Creating a vector to define mean and standard of merged data set
 
 Step 3. Uses descriptive activity names to name the activities in data set
