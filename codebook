@@ -1,0 +1,21 @@
+#Codebook for Getting and Cleaning Data Project
+
+#File names downloaded into R
+<X_train> ... training set data
+<y_train> ... training label names
+<subject_train> ... list of test names from "X_train" & "y_train" data sets
+<X_test> ... test set data
+<y_test> ... test label names
+<subject_test> ... list of test names from "X_test" & "y_test" data sets
+<activity_labels> ... list of activities tested in training and test data sets
+<features> ... list of all features of included datasets
+
+#Combined data set vectors
+<all_test> ... vector from c-binding "X_test", "y_test", and "subject_test" data sets
+<all_train> ... vector from c-binding "X_train", "y_train", and "subject_train" data sets
+<Test_Train> ... vector from r-binding "all_test" and "all_train"
+<AllColNames> ... vector containing all assigned column names in data sets
+<StandardMeans> ... vector that calculates mean and standard deviation of ""Test_Train" data set; will simplify the numerical data
+<TableActivityNames> ... merged data set of "Test_Train" and "activity_labels"
+<TidySet> ... aggregate of "StandardMeans", "TableActivityNames", and calculations to make one table
+<TidySetTable> ... completed table with rows in proper order
